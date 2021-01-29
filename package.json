@@ -1,5 +1,5 @@
 {
-  "name": "supermall",
+  "name": "supermall2",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,19 +7,14 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "core-js": "^3.8.3",
-    "vue": "^3.0.5",
-    "vue-router": "^4.0.3"
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.5.11",
-    "@vue/cli-plugin-router": "^4.5.11",
-    "@vue/cli-service": "^4.5.11",
-    "@vue/compiler-sfc": "^3.0.5"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+    "@vue/cli-plugin-babel": "^3.0.4",
+    "@vue/cli-service": "^3.0.4",
+    "vue-template-compiler": "^2.6.10"
+  }
 }
